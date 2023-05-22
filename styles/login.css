@@ -1,0 +1,104 @@
+:root{
+    background-color: #f9e6f5;
+    font-family: 'Segoe UI', Helvetica, Arial;
+}
+
+.container{
+    width: 80%;
+    max-width: 650px;
+    min-width: 456px;
+    height: 70vh;
+    min-height: 500px;
+    background-color: #ffffff;
+    border-radius: 30px;
+
+    margin: auto;
+    margin-top: 5%;
+
+    box-shadow: 10px 8px 24px 4px rgba(213, 223, 188, 0.69);
+    -webkit-box-shadow: 10px 8px 24px 4px rgb(170, 134, 157);
+    -moz-box-shadow: 10px 8px 24px 4px rgba(199, 187, 187, 0.69);
+}
+
+.orkut-logo{
+    display: flex;
+    justify-content: center ;
+    margin-top: 20px;
+    min-width: 456px;
+}
+
+.orkut-logo > img{
+    height: 80px;
+    
+}
+
+.fields{
+    margin: 5% 10%;
+}
+
+.pink-font{
+    color: #e8258e;
+}
+
+.fields-title{
+  display: flex;
+  justify-content: center;  
+}
+
+#field-title{
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(58, 58, 58);
+
+    margin-top: 30px;
+    margin-bottom: 5%;
+}
+
+.fields-textboxs{
+    height: 100px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.fields-textboxs > input{
+    height: 40px;
+    border: 1px solid silver;
+    border-radius: 10px;
+    margin-bottom: 5%;
+}
+
+.fields-remember{
+    margin-bottom: 20px;
+}
+
+#btnlogin{
+    width: 100%;
+    border: none;
+    background-color: #e8258e;
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.fields-recovery > a , .fields-create > a{
+    text-decoration: none;
+    color: rgb(58, 58, 58);
+}
+
+.fields-recovery{
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 20%;
+}
+
+.fields-create{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 80px;
+}
